@@ -1,0 +1,95 @@
+*{
+     margin: 0;
+     box-sizing: 0;
+}
+
+body{
+    background-image: url("wp.jpg");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 20%;
+}
+
+
+form{
+    width: 200px;
+    margin: 20px auto;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card{
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.65);
+    
+    box-shadow: 5px 5px 5px 5px  rgba(59, 15, 171, 0.259);
+}
+
+.shadow{
+    width: 50%;
+
+}
+
+.poke-name{
+    font-family: 'Tilt Warp', cursive;
+    color: #FFCB05;
+    -webkit-text-stroke: 0.5px #3a36ac;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 5px;
+    padding: 3px;
+}
+
+.poke-types{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.type{
+    width: 30%;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.poke-stats{
+    margin: 2px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokeball-styles{
+    width: 60px;
+    position: absolute;
+    top: 45%;
+    right: -8%;
+}
+
+.pokeball-styles:hover{
+    transform: scale(1.1);
+    box-shadow: 10px rgb(0, 0, 0);
+}
